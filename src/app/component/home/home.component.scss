@@ -132,11 +132,16 @@ background-color: #2a1e1c;
 padding: 0.5rem;
 }
 ul.card-text {
-  height: 16rem;
+  height: auto;
   overflow: auto;
   padding-left: 1.25rem;
   line-height: 2;
   padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+}
+a.btn.orange-bg.text-white {
+  position: absolute;
+  bottom: 1rem;
 }
 .d-flex.display-3.gap-5.text-white.py-5 {
   flex-wrap: wrap;
